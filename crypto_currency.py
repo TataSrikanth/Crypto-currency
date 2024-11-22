@@ -72,7 +72,7 @@ def update_excel(file_path, data, sheet_name="Live Crypto Data"):
 if __name__ == "__main__":
     try:
         # Specify the path to your existing Excel file
-        excel_file_path = "Book1.xlsx"  # Replace with your file path
+        excel_file_path = r"C:\Users\navee\OneDrive\live_updating_cryptocrrency.xlsx" 
         
         print("Fetching live cryptocurrency data...")
         while True:
